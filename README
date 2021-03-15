@@ -1,0 +1,13 @@
+Ionita Alexandru
+Grupa: 322CB
+
+---------------------------TEMA3--------------------------
+
+In rezolvarea temei trebuie sa mentionez folosirea bibliotecii cJSON.h pe motivul faptului ca sunt mai usor de folosit functiile de prelucrare ale stringurilor in scopul parsarii de obiecte cJSON. Astfel pentru requesturile de tip POST, unde trebuie pentru campul DATA trebuie sa am payload uri scrise in format JSON, folosesc functiile acestei biblioteci ca sa creez doua obiecte : user si book.
+Ca sa descriu pe scurt fiecare functie ce face, cJSON_CreateObject() initializeaza variabila de tip cJSON in care se va memora obiectul, cJSON_CreateString() converteste un string obisuit intr-unul care presupune un format JSON, cJSON_AddItemToObject() adauga un camp in obiectul pe care vrem sa il construim si cJSON_Print() converteste variabila cJSON in care am construit obiectul intr-un char* ca sa poata fi returnat.  
+
+Pentru bucla infinita am avut grija sa tin conexiunea pornita de fiecare data cand programul termina de trimis un request, deoarece serverul continua sa inchida conexiunea dupa trimiterea unui singur request. 
+
+Pentru DELETE request am folosit aceeasi structura ca la GET.
+
+Pentru trimiterea requesturilor am considerat paramtetrii dati din enuntul temei si cookie-ul de sesiune dat de login POST pentru comenzile in care trebuie sa demonstrezi ca esti autentificat si de jwt dat de GET-ul de la entry_library pentru comenzile in care trebuie sa demonstrezi ca esti autentificat.

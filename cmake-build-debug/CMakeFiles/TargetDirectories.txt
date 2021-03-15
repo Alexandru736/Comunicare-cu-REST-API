@@ -1,0 +1,3 @@
+/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/CMakeFiles/tema3.dir
+/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/CMakeFiles/edit_cache.dir

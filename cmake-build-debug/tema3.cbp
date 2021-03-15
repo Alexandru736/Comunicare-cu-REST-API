@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tema3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tema3">
+				<Option output="/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/tema3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandru/Desktop/PC_lab/tema3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 tema3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tema3/fast">
+				<Option output="/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/tema3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandru/Desktop/PC_lab/tema3/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 tema3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexandru/Desktop/PC_lab/tema3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexandru/Desktop/PC_lab/tema3/buffer.c">
+			<Option target="tema3"/>
+		</Unit>
+		<Unit filename="/home/alexandru/Desktop/PC_lab/tema3/buffer.h">
+			<Option target="tema3"/>
+		</Unit>
+		<Unit filename="/home/alexandru/Desktop/PC_lab/tema3/cJSON.c">
+			<Option target="tema3"/>
+		</Unit>
+		<Unit filename="/home/alexandru/Desktop/PC_lab/tema3/cJSON.h">
+			<Option target="tema3"/>
+		</Unit>
+		<Unit filename="/home/alexandru/Desktop/PC_lab/tema3/client.c">
+			<Option target="tema3"/>
+		</Unit>
+		<Unit filename="/home/alexandru/Desktop/PC_lab/tema3/helpers.c">
+			<Option target="tema3"/>
+		</Unit>
+		<Unit filename="/home/alexandru/Desktop/PC_lab/tema3/helpers.h">
+			<Option target="tema3"/>
+		</Unit>
+		<Unit filename="/home/alexandru/Desktop/PC_lab/tema3/requests.c">
+			<Option target="tema3"/>
+		</Unit>
+		<Unit filename="/home/alexandru/Desktop/PC_lab/tema3/requests.h">
+			<Option target="tema3"/>
+		</Unit>
+		<Unit filename="/home/alexandru/Desktop/PC_lab/tema3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
